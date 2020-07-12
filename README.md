@@ -1,7 +1,7 @@
 # Base python3 container for webapps with static content support.
 
 # Use as base image in Dockerfile
-`FROM docker.pkg.github.com/codeomatic/base-uwsgi-cloud-run/python:latest`
+`FROM codeomatic/base-uwsgi-cloud-run:v20.07.3`
 
 ## Purpuse
 Serve python webapps with some static files from completly 
